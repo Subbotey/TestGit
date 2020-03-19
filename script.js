@@ -1,2 +1,2 @@
 console.log ("Hello!!");
-console.log ("Feature work!!");
+console.log ("base work!!");
