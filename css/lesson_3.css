@@ -1,0 +1,70 @@
+@import url(style.css);
+/*
+	Комментарий
+*/
+
+/*
+	Selektor tegov
+*/
+
+h3 {
+	color: green;
+}
+
+/*
+	Selektor klassov
+*/
+
+.center {
+		text-align: center;
+}
+/*
+	Selektor identifikatorov
+*/
+#container {
+	height: 200px;
+	width: 200px;
+	background-color: yellow;
+}
+p > em {
+	font-size: 30 pt;
+}
+/*
+	Selektor potomka
+*/
+p em {
+	color: red:
+}
+#general > .red > a {
+	text-decoration: none;
+}
+nav li {
+	list-style-type: none;
+}
+/*
+	sosedniy selektor
+*/
+p + p, b + i {
+	color: blue;
+}
+/*
+	rodstvenniy selektor
+*/
+b ~ i {
+	color: blue;
+}
+/*
+	plohoy selektor
+*/
+* {
+	
+}
+/*
+	selektor atributov
+*/
+[id] {
+border: 1px solid black;
+}
+[id=general] {
+border: 1px solid red;
+}
