@@ -1,3 +1,55 @@
 h3 {
 	background-color: blue;
 }
+#elemid { /* 0100 */
+	color: red;
+}
+
+.elem-class { /* 0010 */
+	background-color: blue;
+}
+p { /* 0001*/
+	border: 2px solid red;
+}
+#elemid.elem-class { /* 0110 */
+	background-color: yellow;
+	border: 2px solid blue;
+}
+
+.div {
+	height: 100px;
+	width: 100px;
+
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	margin-left:15px;
+	
+	background-color: rgb( 30,50,100);
+	height: 50px;
+	
+	padding: 5px;
+	
+	border: 1px solid blue;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.p {
+	height: 100px;
+	width: 100px;
+	
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left:15px;
+	display: inline-block;
+
+}
+.span {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	background-color: rgb( 30,50,100);
+
+}
